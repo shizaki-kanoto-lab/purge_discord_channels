@@ -1,5 +1,7 @@
 # purge_discord_channels
 
+[![test](https://github.com/shizaki-kanoto-lab/purge_discord_channels/actions/workflows/test.yml/badge.svg)](https://github.com/shizaki-kanoto-lab/purge_discord_channels/actions/workflows/test.yml)
+
 Discord の特定カテゴリ配下にあるテキストチャンネルを一括削除するツールです。
 
 > [!WARNING]
