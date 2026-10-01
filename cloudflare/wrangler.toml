@@ -1,0 +1,7 @@
+name = "purge-discord-channels"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# シークレットは次のコマンドで設定する（このファイルには書かない）
+#   npx wrangler secret put DISCORD_PUBLIC_KEY
+#   npx wrangler secret put DISCORD_BOT_TOKEN
