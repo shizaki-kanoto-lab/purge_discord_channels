@@ -110,6 +110,9 @@
     .card ul { margin: 10px 0 0; padding-left: 1.2em; color: var(--muted); }
     .card ul li { margin: 2px 0; }
 
+    .shot { margin: 0; }
+    .shot img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 14px 34px -22px rgba(0, 0, 0, .55); }
+    .shot figcaption { margin-top: 10px; font-size: .9rem; color: var(--muted); }
     ul.check { list-style: none; padding: 0; margin: 0; }
     ul.check li { padding-left: 1.6em; position: relative; margin: 6px 0; }
     ul.check li::before { content: "✓"; position: absolute; left: 0; color: var(--accent-ink); font-weight: 700; }
@@ -201,6 +204,16 @@
             <p>名前や ID で指定したチャンネルは、削除対象から外せます。</p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>実際の画面</h2>
+        <figure class="shot">
+          <img src="screen.jpg" alt="Discord で /purge を使ったときの返信。カテゴリ「てすとかてごり１」の削除対象として「じょがい」チャンネルと最終活動日が並び、「削除する」と「キャンセル」のボタンがある" width="1229" height="258" loading="lazy">
+          <figcaption>Discord で <code>/purge</code> を実行したところ。最後の投稿から1日以上たったチャンネルを対象にしています。一覧は実行した人にだけ見え、「削除する」を押すまで何も消えません。</figcaption>
+        </figure>
       </div>
     </section>
 
